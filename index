@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BhavyaRamesh.com – SEO & Audit Interactive Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f7f7fa;
+      margin: 0;
+      color: #23233a;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 36px 48px;
+      box-shadow: 0 5px 28px rgba(50,63,113,.15);
+      border-radius: 12px;
+    }
+    h1, h2 {
+      color: #3043c2;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 2.7em;
+      font-weight: 700;
+      margin-top: 0;
+    }
+    h2 {
+      font-size: 1.6em;
+      font-weight: 600;
+      margin-top: 32px;
+    }
+    .summary {
+      font-size: 1.2em;
+      margin-bottom: 26px;
+    }
+    .audit-chart {
+      width: 100%;
+      max-width: 650px;
+      margin: 32px 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(50,63,113,.08);
+      display:block;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 28px 0;
+      background: #f2f7fb;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    table th, table td {
+      padding: 11px 18px;
+      text-align: left;
+    }
+    table th {
+      background: #3043c2;
+      color: #fff;
+      font-weight: 600;
+    }
+    table tr:not(:first-child) {
+      border-top: 1px solid #eee;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+    .recommendations {
+      background: #f1f6fd;
+      padding: 18px 25px;
+      border-radius: 8px;
+      font-size: 1.07em;
+      margin-bottom: 22px;
+      box-shadow: 0 2px 6px #e4e8f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BhavyaRamesh.com SEO & Audit Interactive Dashboard</h1>
+    <div class="summary">
+      This professional dashboard provides a comprehensive overview of the site's audit including performance, errors, SEO issues, and actionable recommendations.
+    </div>
+    <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/9a968fa04b4df3be876975fdb139f621/c6a02e6e-8a7b-45dc-a342-341157a1cf0e/df1f5da4.png" alt="Audit Dashboard Chart" class="audit-chart">
+
+    <h2>Key Audit Summary</h2>
+    <table>
+      <tr>
+        <th>Issue Type</th>
+        <th>Count</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>5xx Server Errors</td>
+        <td>0</td>
+        <td>No critical server errors found</td>
+      </tr>
+      <tr>
+        <td>4xx Client Errors</td>
+        <td>Some</td>
+        <td>Need review for broken internal/external links</td>
+      </tr>
+      <tr>
+        <td>Duplicate Content</td>
+        <td>Detected</td>
+        <td>Review title/meta tag duplicates</td>
+      </tr>
+      <tr>
+        <td>Missing Meta Tags</td>
+        <td>Present</td>
+        <td>Meta Description & Title optimization recommended</td>
+      </tr>
+      <tr>
+        <td>Performance Score</td>
+        <td>Varied</td>
+        <td>Optimize slow pages for better UX</td>
+      </tr>
+      <tr>
+        <td>Broken Internal Links</td>
+        <td>Found</td>
+        <td>Fix navigation issues to improve crawlability</td>
+      </tr>
+    </table>
+
+    <h2>Actionable Recommendations</h2>
+    <div class="recommendations">
+      <ul>
+        <li>Resolve broken links and 4xx errors to enhance user experience and SEO ranking.</li>
+        <li>Eliminate duplicate content, especially in titles and descriptions.</li>
+        <li>Improve meta tag coverage for all important pages.</li>
+        <li>Optimize page load speed, especially those with low performance scores.</li>
+        <li>Fix or update missing canonical and hreflang tags for international SEO.</li>
+        <li>Regularly audit security certificates for HTTPS compliance.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
